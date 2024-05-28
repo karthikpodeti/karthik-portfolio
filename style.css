@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+.dance-font{
+    font-family: "Dancing Script", cursive;
+}
+
+
+/* hover on cards */
+
+.col-lg-3{
+    transition: all 0.3s;
+}
+.col-lg-3:hover{
+transform: scale(1.03);
+}
+
+
+/* hover on education */
+
+.col-md-8{
+    transition: all 0.3s;
+}
+.col-md-8:hover{
+    transform: scale(1.02);
+}
+
+/* projects */
+.col-md-5{
+    transition: all 0.3s;
+}
+.col-md-5:hover{
+    transform: scale(1.02);
+}
+
+.karthik_img{
+    border-radius: 10%;
+}
+.karthik_img{
+    transition: all 0.3s;
+}
+.karthik_img:hover{
+    transform: scale(1.02);
+}
